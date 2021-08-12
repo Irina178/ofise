@@ -5,142 +5,152 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ofise</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
-  <body>
+  <body class="container">
     <header>
-      <div>
-        <ul>
-          <li><a href="">Доставка</a></li>
-          <li><a href="">Оплата</a></li>
-          <li><a href="">Отзывы</a></li>
-          <li><a href="">Вопрос - ответ</a></li>
-          <li><a href="">Контакты</a></li>
+      <div class="header">
+        <ul class="item">
+          <li class="item__list"><a class="item__link" href="">Доставка</a></li>
+          <li class="item__list"><a class="item__link" href="">Оплата</a></li>
+          <li class="item__list"><a class="item__link" href="">Отзывы</a></li>
+          <li class="item__list">
+            <a class="item__link" href="">Вопрос - ответ</a>
+          </li>
+          <li class="item__list"><a class="item__link" href="">Контакты</a></li>
         </ul>
       </div>
-      <div>
-        <span>
-          <svg></svg>
-          <a>BEAUTY</a>
-        </span>
-        <span>
-          <a>8 (812) 123-45-67</a>
-          <button>
-            Обратный звонок
-          </button>
-        </span>
-      </div>
 
-      <div>
-        <ul>
-          <li><a href="">Парикмахерская</a></li>
-          <li><a href="">Барбершоп</a></li>
-          <li><a href="">Маникюр</a></li>
-          <li><a href="">Педикюр</a></li>
-          <li><a href="">Массаж</a></li>
-          <li><a href="">Мебель</a></li>
+      <div class="brend">
+        <img class="brend__img" src="#" alt="" width="80px" height="80px" />
+        <a class="brend__link">BEAUTY</a>
+
+        <a class="contact__tel">8 (812) 123-45-67</a>
+      </div>
+      <div class="line"></div>
+      <div class="furniture">
+        <ul class="salon">
+          <li class="salon__list">
+            <a class="salon__link" href="">Парикмахерская</a>
+          </li>
+          <li class="salon__list">
+            <a class="salon__link" href="">Барбершоп</a>
+          </li>
+          <li class="salon__list">
+            <a class="salon__link" href="">Маникюр</a>
+          </li>
+          <li class="salon__list">
+            <a class="salon__link" href="">Педикюр</a>
+          </li>
+          <li class="salon__list"><a class="salon__link" href="">Массаж</a></li>
+          <li class="salon__list"><a class="salon__link" href="">Мебель</a></li>
         </ul>
       </div>
     </header>
 
     <main>
-      <div>
-        <h1>Супер кресло</h1>
-        <p>
-          Текст акции всегда отражает суть, а не просто болтовню, поэтому
-          внимательнее
-        </p>
-        <button>
-          Подробнее
-        </button>
-      </div>
-      <div>
-      <div>
-        <h2>Специальные предложения</h2>
-        <span>
-          <img src="#" alt="кресло" width="125px" height="166px" />
-          <p>Парикмахерское кресло «Норм» гидравлическое</p>
-          <h3>
-            9 900 ₽
-          </h3>
-          <buttom>Купить</buttom>
-        </span>
-        <span>
-          <img src="#" alt="кресло" width="125px" height="166px" />
-          <p>Парикмахерское кресло «Норм» гидравлическое</p>
-          <h3>
-            9 900 ₽
-          </h3>
-          <buttom>Купить</buttom>
-        </span>
-        <span>
-          <img src="#" alt="кресло" width="125px" height="166px" />
-          <p>Парикмахерское кресло «Норм» гидравлическое</p>
-          <h3>
-            9 900 ₽
-          </h3>
-          <buttom>Купить</buttom>
-        </span>
-        <span>
-          <img src="#" alt="кресло" width="125px" height="166px" />
-          <p>Парикмахерское кресло «Норм» гидравлическое</p>
-          <h3>
-            9 900 ₽
-          </h3>
-          <buttom>Купить</buttom>
-        </span>
-      </div>
-
-      <div>
-        <div>
-          <h2>Получайте бонусы и подарки</h2>
-          <p>Каждый месяц разыгрываем 10 000 рублей для наших клиентов</p>
-          <svg></svg>
+      <div class="bacround">
+         <div class="armchair">
+          <h1 class="armchair__heading">Супер кресло</h1>
+          <p class="armchair__text">
+            Текст акции всегда отражает суть, а не просто болтовню, поэтому
+            внимательнее
+          </p>
+          <button type="button" class="armchair__button">
+            Подробнее
+          </button>
         </div>
-        <div>
-         <h2>Заходите к нам</h2>
-         <p>Более 300 магазинов
-            по всей России</p>
-         <button>Карта магазинов</button>
-       </div>
       </div>
-   </div>
+      <div class="product">
+        <div class="spec">
+          <h2 class="spec__heading">Специальные предложения</h2>
+          <div class="flex">
+          <div class="catalog">
+            <img  class="catalog__img" src="#" alt="кресло" width="125px" height="166px" />
+            <p class="catalog__text" >Парикмахерское кресло «Норм» гидравлическое</p>
+            <h3 class="catalog__heading" >
+              9 900 ₽
+            </h3>
+            <buttom class="catalog__button" >Купить</buttom>
+          </div>
+          <div class="catalog">
+            <img  class="catalog__img" src="#" alt="кресло" width="125px" height="166px" />
+            <p class="catalog__text" >Парикмахерское кресло «Норм» гидравлическое</p>
+            <h3 class="catalog__heading" >
+              9 900 ₽
+            </h3>
+            <buttom class="catalog__button">Купить</buttom>
+          </div>
+          <div class="catalog">
+            <img  class="catalog__img" src="#" alt="кресло" width="125px" height="166px" />
+            <p class="catalog__text" >Парикмахерское кресло «Норм» гидравлическое</p>
+            <h3 class="catalog__heading" >
+              9 900 ₽
+            </h3>
+            <buttom class="catalog__button" >Купить</buttom>
+          </div>
+          <div class="catalog">
+            <img  class="catalog__img" src="#" alt="кресло" width="125px" height="166px" />
+            <p class="catalog__text" >Парикмахерское кресло «Норм» гидравлическое</p>
+            <h3 class="catalog__heading" >
+              9 900 ₽
+            </h3>
+            <buttom class="catalog__button" >Купить</buttom>
+          </div>
+        </div>
 
+        <div>
+          <div>
+            <h2>Получайте бонусы и подарки</h2>
+            <p>Каждый месяц разыгрываем 10 000 рублей для наших клиентов</p>
+            <svg></svg>
+          </div>
+          <div>
+            <h2>Заходите к нам</h2>
+            <p>Более 300 магазинов по всей России</p>
+            <button>Карта магазинов</button>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>
-       <div>
-          <ul>
-             <li>
-                <a href="">
-                   <svg></svg>
-                </a>
-             </li>
-             <li>
-                <a href="">
-             <img src="#" alt="" width="45" height="45">
-                </a>
-             </li>
-             <li>
-                <a href="">
-                  <img src="#" alt="" width="45" height="45">
-                </a>
-             </li>
-             <li>
-                <a href="">
-                  <img src="#" alt="" width="45" height="45">
-                </a>
-             </li>
-          </ul>
-          <ul>
-             <li>198555, Невский пр. 140, офис 140</li>
-             <li><a>8 (812) 123-45-67</a></li>
-          </ul>
-          <button>Обратный звонок</button>
-       </div>
-       <div>
-          <p>Лучший магазин (с) 2019 Все права защищены. Интернет-магазин оборудования для салонов красоты</p>
-          <a>Политика конфиденциальности</a>
-       </div>
+      <div>
+        <ul>
+          <li>
+            <a href="">
+              <svg></svg>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="#" alt="" width="45" height="45" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="#" alt="" width="45" height="45" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="#" alt="" width="45" height="45" />
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>198555, Невский пр. 140, офис 140</li>
+          <li><a>8 (812) 123-45-67</a></li>
+        </ul>
+        <button>Обратный звонок</button>
+      </div>
+      <div>
+        <p>
+          Лучший магазин (с) 2019 Все права защищены. Интернет-магазин
+          оборудования для салонов красоты
+        </p>
+        <a>Политика конфиденциальности</a>
+      </div>
     </footer>
   </body>
 </html>
