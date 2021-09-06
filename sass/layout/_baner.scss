@@ -1,0 +1,55 @@
+ .wraper{
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 1080px;
+background-image: url(../img/bcolor.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+block-size: cover;
+ }
+.baner {
+  padding-top: 192px;
+ 
+   padding-bottom: 193px;
+  
+  &__heading {
+    font-family: Roboto;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: $bc;
+    padding-bottom: 50px;
+  }
+
+  &__text {
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 20px;
+    color: $bc;
+    padding-bottom: 50px;
+    max-width: 308px;
+   
+  }
+
+  &__link {
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: $bc;
+    border: 2px solid $bc;
+    border-radius: 40px;
+    padding: 12px 26px;
+    background-color: $green;
+    transition: 0.2s;
+  }
+
+  .baner__link:hover{
+    background-color: $bc;
+    color: $drak;
+    border-color: $drak;
+  }
+}
+
+ 

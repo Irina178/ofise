@@ -1,10 +1,8 @@
- @import "./utils/modern-normalize";
- @import "./utils/veriables";
-
- @import "./components/header";
- @import "./components/footer";
- 
- @import "./base/common";
- @import "./base/conteiner";
- @import "./layout/ armchair";
- @import "./layout/spec";
+@import './utils/modern-normalise';
+@import './utils/veriables';
+@import './components/header';
+@import './components/footer';
+@import './base/common';
+@import './base/container';
+@import'./layout/baner';
+@import'./layout/product';

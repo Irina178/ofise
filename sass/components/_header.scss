@@ -1,83 +1,91 @@
-.header {
-  background-color: $background;
-  height: 50px;
+.navigation {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
-.item {
+.menu {
   display: flex;
-  flex-direction: row;
   justify-content: center;
 
-  &__list {
+  // &__list {
+  // }
+
+  &__link {
     margin-right: 30px;
-    padding-top: 17px;
-    padding-bottom: 16px;
-  }
-
-  &__link {
-    font-family: Roboto;
-    font-style: Regular;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
-
-    color: $color-black;
+    line-height: 16px;
+    color: $drak;
   }
 }
-
-.brend {
-  height: 120px;
-  background-color: $color-white;
-  border: 2px;
+.beauty {
+  justify-content: flex-start;
   display: flex;
-  flex-direction: row;
-
-  &__img {
-    padding-top: 19px;
-    padding-bottom: 19px;
-  }
-
-  &__link {
-    font-family: Roboto;
-    font-style: Bold;
-    font-size: 36px;
-    line-height: 42.19px;
-    color: $color-accent;
-    padding: 41px 515px 40px 20px;
-  }
+  align-items: center;
+  background-color: $bc;
+  height: 120px;
 }
-.contact {
+.logo {
+  font-family: Roboto;
+  font-size: 36px;
+  line-height: 40px;
+  color: $green;
+  margin-right: 515px;
   &__tel {
     font-family: Roboto;
     font-style: Regular;
     font-size: 16px;
-    line-height: 18.75px;
-    padding: 50px 40px 50px 0px;
-    color: $color-black;
+    line-height: 18px;
+    color: $drak;
   }
-}
-.line {
-  width: 1110px;
-  border-top: 1px solid $background;
-  
-}
 
-.furniture {
-  height: 79px;
-  
-  
-}
-.salon {
-   display: flex;
-   justify-content: center;
- 
-  &__list {
-   padding-left: 40px;
-   padding-top: 30px;
+  &__button {
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 16.41px;
+    background-color: $bc;
+    border: 2px solid $green;
+    border-radius: 40px;
+    padding-top: 12px;
+    padding-left: 25px;
+    padding-bottom: 12px;
+    padding-right: 25px;
+    margin-left: 40px;
+    transition: 0.2s;
   }
+  &__button:hover{
+    background-color: $green;
+  }
+}
+hr{
+  border: none;
+  background-color: $gray;
+  height: 1px;
+}
+.type {
+  padding-top: 30px;
+ padding-bottom: 30px ;
+  align-items: center;
+  background-color: $bc;
+}
+.industrial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  // &__list {
+   
+  // }
 
   &__link {
-   Font-family: Roboto;
-   Font-style: Regular;
-   Font-size: 16px;
-   Line-height: 18.75px;
-   color: $color-black;
+    
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: $drak;
+    margin-right: 40px;
+   
+    
   }
 }

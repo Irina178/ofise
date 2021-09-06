@@ -1,11 +1,12 @@
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
- }
- body {
-   // font-family:  ;
-   font-style: normal;
-   font-weight: 500; 
-   margin: 0auto;
- }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: $gray;
+}
