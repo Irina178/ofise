@@ -5,92 +5,169 @@
 }
 .product {
   &__heading {
-   font-family: Roboto;
-   font-style: Bold;
-   font-size: 24px;
-   line-height: 28.13px;
-   padding-top: 80px;
-   padding-bottom: 35px;
+    font-family: Roboto;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 28.13px;
+    padding-top: 80px;
+    padding-bottom: 35px;
   }
 
   &__img {
-   padding-top: 25px;
-   padding-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 20px;
   }
 }
 .block {
-   display: flex;
+  display: flex;
   align-items: center;
   flex-direction: column;
   width: 255px;
   height: 363px;
-  background-color: $bc;
-  border: 1px solid $drak ;
-   
+  background-color: #ffffff;
 }
-.block:not(:last-child){
-   margin-right: 30px;
+.block:not(:last-child) {
+  margin-right: 30px;
 }
 .information {
-   display: flex;
+  display: flex;
   align-items: center;
   flex-direction: column;
   width: 195px;
   height: 127px;
   &__text {
-   font-family: Roboto;
-   font-style: Regular;
-   font-size: 14px;
-   line-height: 19.69px;
-   justify-content: center;
-   color: $drak;
-   padding-bottom: 20px;
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 19.69px;
+    justify-content: center;
+    color: $drak;
+    padding-bottom: 20px;
   }
 
   &__sheck {
-   font-family: Roboto;
-   font-style: Medium;
-   font-size: 21px;
-   line-height: 24px;
-   color: $drak;
-   padding-bottom: 20px;
+    font-family: Roboto;
+    font-style: Medium;
+    font-size: 21px;
+    line-height: 24px;
+    color: $drak;
+    padding-bottom: 20px;
   }
 
   &__button {
-   font-family: Roboto;
-   font-style: Regular;
-   font-size: 14px;
-   line-height: 16x;
-   color: $bc;
-   padding: 9px 40px;
-   border: 1px solid $green;
-   border-radius: 30px;
-   background-color: $green;
-   transition: 0.2s;
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 16x;
+    color: $bc;
+    padding: 9px 40px;
+    border: 1px solid $green;
+    border-radius: 30px;
+    background-color: $green;
+    transition: 0.2s;
   }
   &__button:hover {
-   background-color: $bc;
-   border: 1px solid $drak;
-   color: $drak;
- }
+    background-color: $bc;
+    border: 1px solid $drak;
+    color: $drak;
+  }
 }
-.section{
-   display: flex;
-   padding-bottom: 100px;
+.section {
+  display: flex;
+  padding-bottom: 100px;
 }
 
+.present {
+  width: 540px;
+  height: 212px;
+  background-color: $green;
+  padding-left: 40px;
+  &__heading {
+    padding-top: 35px;
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 19.69px;
+    color: $bc;
+  }
 
+  &__text {
+    padding-top: 25px;
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 19.69px;
+    color: $bc;
+    max-width: 213px;
+    max-height: 40px;
+  }
+}
+.magazin {
+  margin-left: 30px;
+  padding-left: 40px;
 
+  width: 540px;
+  height: 212px;
+  background-color: $green;
 
+  &__heading {
+    margin-top: 25px;
 
+    font-family: Roboto;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 21.09px;
+    color: $bc;
+  }
 
+  &__text {
+    margin-top: 25px;
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 19.69px;
+    color: $bc;
 
+    max-width: 141px;
+    max-height: 40px;
+    padding-bottom: 25px;
+    align-items: center;
+  }
 
+  &__btn {
+    margin-top: 25px;
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: $bc;
+    border: 2px solid $bc;
+    border-radius: 30px;
+    padding: 9px 25px;
+    background-color: $green;
+    transition: 0.2s;
+  }
+  &__btn:hover {
+    background-color: $bc;
+    color: $drak;
+  }
+}
+.flex {
+  display: flex;
+}
 
+.form {
+  display: flex;
+  margin-top: 40px;
+  margin-right: 75px;
+  margin-bottom: 35px;
+  
+  
+  
+}
+.form-email {
+  padding: 9px 104px 9px 25px;
+  border-radius: 30px;
+  border: $green;
+}
 
-
-
-
-
-
- 

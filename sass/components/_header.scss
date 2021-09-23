@@ -1,6 +1,7 @@
 .navigation {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  background-color: $gray;
 }
 .menu {
   display: flex;
@@ -53,18 +54,18 @@
     margin-left: 40px;
     transition: 0.2s;
   }
-  &__button:hover{
+  &__button:hover {
     background-color: $green;
   }
 }
-hr{
+hr {
   border: none;
   background-color: $gray;
   height: 1px;
 }
 .type {
   padding-top: 30px;
- padding-bottom: 30px ;
+  padding-bottom: 30px;
   align-items: center;
   background-color: $bc;
 }
@@ -74,18 +75,15 @@ hr{
   align-items: center;
 
   // &__list {
-   
+
   // }
 
   &__link {
-    
     font-family: Roboto;
     font-style: Regular;
     font-size: 16px;
     line-height: 18.75px;
     color: $drak;
     margin-right: 40px;
-   
-    
   }
 }

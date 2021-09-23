@@ -1,17 +1,17 @@
- .wraper{
+.wraper {
   padding: 0 15px;
   margin: 0 auto;
   width: 1080px;
-background-image: url(../img/bcolor.jpg);
-background-repeat: no-repeat;
-background-position: center center;
-block-size: cover;
- }
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  block-size: cover;
+}
 .baner {
   padding-top: 192px;
- 
-   padding-bottom: 193px;
-  
+
+  padding-bottom: 193px;
+
   &__heading {
     font-family: Roboto;
     font-style: Bold;
@@ -29,7 +29,6 @@ block-size: cover;
     color: $bc;
     padding-bottom: 50px;
     max-width: 308px;
-   
   }
 
   &__link {
@@ -45,11 +44,9 @@ block-size: cover;
     transition: 0.2s;
   }
 
-  .baner__link:hover{
+  .baner__link:hover {
     background-color: $bc;
     color: $drak;
     border-color: $drak;
   }
 }
-
- 

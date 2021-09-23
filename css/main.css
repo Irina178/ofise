@@ -309,8 +309,9 @@ img {
 }
 
 .navigation {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  background-color: #e5e5e5;
 }
 
 .menu {
@@ -412,6 +413,94 @@ hr {
   margin-right: 40px;
 }
 
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 1110px;
+  background-color: #efefef;
+}
+
+.connection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFF;
+  height: 120px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.adress__text {
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 16px;
+  color: black;
+  margin-right: 99px;
+}
+.adress__tel {
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 18px;
+  color: black;
+  margin-right: 40px;
+}
+.adress__btn {
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: black;
+  border: 2px solid #66c05d;
+  border-radius: 40px;
+  padding: 12px 26px;
+  background-color: #FFFFFF;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.adress__btn:hover {
+  background-color: #66c05d;
+  color: #FFFFFF;
+}
+
+.confidentiality {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.confidentiality__text {
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 345px;
+}
+.confidentiality__heading {
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -436,7 +525,7 @@ body {
   padding: 0 15px;
   margin: 0 auto;
   width: 1080px;
-  background-image: url(../img/bcolor.jpg);
+  background-image: url(../img/bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   block-size: cover;
@@ -514,8 +603,7 @@ body {
           flex-direction: column;
   width: 255px;
   height: 363px;
-  background-color: #efefef;
-  border: 1px solid #333333;
+  background-color: #ffffff;
 }
 
 .block:not(:last-child) {
@@ -579,4 +667,98 @@ body {
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 100px;
+}
+
+.present {
+  width: 540px;
+  height: 212px;
+  background-color: #66c05d;
+  padding-left: 40px;
+}
+.present__heading {
+  padding-top: 35px;
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 19.69px;
+  color: #efefef;
+}
+.present__text {
+  padding-top: 25px;
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 19.69px;
+  color: #efefef;
+  max-width: 213px;
+  max-height: 40px;
+}
+
+.magazin {
+  margin-left: 30px;
+  padding-left: 40px;
+  width: 540px;
+  height: 212px;
+  background-color: #66c05d;
+}
+.magazin__heading {
+  margin-top: 25px;
+  font-family: Roboto;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 21.09px;
+  color: #efefef;
+}
+.magazin__text {
+  margin-top: 25px;
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 19.69px;
+  color: #efefef;
+  max-width: 141px;
+  max-height: 40px;
+  padding-bottom: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.magazin__btn {
+  margin-top: 25px;
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #efefef;
+  border: 2px solid #efefef;
+  border-radius: 30px;
+  padding: 9px 25px;
+  background-color: #66c05d;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.magazin__btn:hover {
+  background-color: #efefef;
+  color: #333333;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  margin-right: 75px;
+  margin-bottom: 35px;
+}
+
+.form-email {
+  padding: 9px 104px 9px 25px;
+  border-radius: 30px;
+  border: #66c05d;
 }/*# sourceMappingURL=main.css.map */
